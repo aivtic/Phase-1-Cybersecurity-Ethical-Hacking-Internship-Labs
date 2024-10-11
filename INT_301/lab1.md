@@ -15,7 +15,7 @@ Linux is an open-source operating system known for its speed, reliability, and e
 Kali Linux is a specialized distribution designed for security auditing and penetration testing. It includes numerous tools for these tasks, but it is not intended for everyday use like gaming or general development. As a cybersecurity professional, it’s crucial to be adept at navigating both the graphical user interface (GUI) and the command line in Kali Linux.
 
 ## Required Resources
-- Kali Linux virtual machine (VM) customized for the Ethical Hacker course.
+- Kali Linux virtual machine (VM) customized for Internship Training course.
 - Internet access.
 
 ## Instructions
@@ -47,9 +47,9 @@ The shell (or terminal) is a powerful interface for interacting with the Linux o
      man man
      ```
    - This command displays documentation about the `man` command. Use `q` to exit the man page.
-   - **Question**: Name a few sections included in a man page.
-   **Answer Area**
-   <!----><!---->
+   - **Question**: Name a few sections included in a man page?
+
+   
 
 2. **Basic Commands**:
    The following table lists some basic Linux commands and their functions:
@@ -81,8 +81,7 @@ In this step, you will use the `cd`, `mkdir`, and `ls` commands.
    ```
 
    **Question**: What is the current directory?
-   **Answer Area**
-   <!----><!---->
+   
 
 2. **Navigate to the `/home/kali` Directory**:
    ```bash
