@@ -1,6 +1,4 @@
-Here’s the enhanced version of Lab 1: Investigate Kali Linux, incorporating all the provided content and adding some additional details for clarity:
 
----
 
 # Lab 1: Investigate Kali Linux
 
@@ -174,4 +172,3 @@ Navigating the Kali Linux file system is essential for effective system manageme
 
 ---
 
-This version of the lab includes structured sections and additional details for clarity and completeness. Let me know if you need any more changes!
