@@ -1,11 +1,9 @@
-Here's a comprehensive lab for **Week 2: Introduction to Bash Scripting**. This lab covers essential bash scripting concepts and provides exercises to reinforce the learning. It can be adapted for beginners to intermediate learners.
 
----
 
-# Week 2: Introduction to Bash Scripting
+# Lab 1: Introduction to Bash Scripting
 
 ## Lab Overview
-In this lab, students will learn how to write simple bash scripts and execute them in the Linux shell. By the end of the lab, students should be able to create and run scripts that automate tasks, handle user inputs, and perform basic operations.
+In this lab, interns will learn how to write simple bash scripts and execute them in the Linux shell. By the end of the lab, students should be able to create and run scripts that automate tasks, handle user inputs, and perform basic operations.
 
 ### Learning Objectives:
 1. Understand the basics of bash scripting syntax.
