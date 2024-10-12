@@ -58,4 +58,49 @@ Phase 1 of the **Cybersecurity Ethical Hacking Internship Labs** is designed to 
 ---
 
 
+Got it! Here’s the enhanced table with the **12 labs** divided into **two weeks** for **INT302: Kali Linux Tools and System Security**. It provides a clear and structured overview of the labs, ensuring a professional look and a hands-on approach for the participants.
+
 ---
+
+## **INT302: Kali Linux Tools and System Security – Labs**
+
+### **Topics Covered**
+This course covers advanced tools in Kali Linux, with a focus on reconnaissance, vulnerability assessment, packet analysis, and exploitation techniques using industry-standard tools. The labs are designed to offer practical experience with real-world scenarios.
+
+---
+
+### **Week 1: Reconnaissance, Information Gathering, and Scanning**
+
+| **Lab Number** | **Description Name**                                                                                                       | **Status**         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Lab 1          | [Get IP Address of Domain, WHOIS, DNS Lookup](INT_302_Week_1_and_2/lab1.md)                                                       | Mandatory          |
+| Lab 2          | [Website Enumeration and Information Gathering](INT_302_Week_1_and_2/lab2.md)                                                     | Mandatory          |
+| Lab 3          | [Subdomain Hunting using Sublist3r, DirB, and TheHarvester](INT_302_Week_1_and_2/lab3.md)                                         | Mandatory          |
+| Lab 4          | [Basic Port Scanning and Vulnerability Detection with Nmap & Nikto](INT_302_Week_1_and_2/lab4.md)                                 | Mandatory          |
+| Lab 5          | [Wireshark: Packet Capturing, Analyzing Network Traffic, and Filtering](INT_302_Week_1_and_2/lab5.md)                             | Mandatory          |
+| Lab 6          | [Advanced Packet Analysis with Custom Filters and Protocol Dissection](INT_302_Week_1_and_2/lab6.md)                              | Mandatory          |
+
+---
+
+### **Week 2: Exploitation, Web Application Testing, and Advanced Networking**
+
+| **Lab Number** | **Description Name**                                                                                                       | **Status**         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Lab 7          | [Incident Response and Threat Hunting Techniques using Wireshark](INT_302_Week_1_and_2/lab7.md)                                   | Mandatory          |
+| Lab 8          | [Web Application Security Testing with BurpSuite and OWASP ZAP](INT_302_Week_1_and_2/lab8.md)                                     | Mandatory          |
+| Lab 9          | [Recon-ng and Shodan: Advanced Reconnaissance and Search](INT_302_Week_1_and_2/lab9.md)                                           | Mandatory          |
+| Lab 10         | [DNS Enumeration using Nslookup, Host, Dig, and Enum4linux](INT_302_Week_1_and_2/lab10.md)                                        | Mandatory          |
+| Lab 11         | [Using Tor and Proxychains for Anonymity and Traffic Routing](INT_302_Week_1_and_2/lab11.md)                                      | Mandatory          |
+| Lab 12         | [Password Cracking with John the Ripper: Practical Exercises](INT_302_Week_1_and_2/lab12.md)                                      | Mandatory          |
+
+---
+
+### **Course Highlights:**
+This lab series will equip participants with practical skills in:
+- Network and web reconnaissance
+- Vulnerability detection and analysis
+- Exploitation and web application security
+- Advanced packet analysis and network traffic monitoring
+- Anonymity, proxy usage, and password cracking techniques
+
+Each lab provides real-world exercises to prepare participants for hands-on cybersecurity challenges.
