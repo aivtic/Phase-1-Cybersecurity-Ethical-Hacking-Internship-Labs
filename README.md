@@ -8,7 +8,7 @@ Phase 1 of the Cybersecurity Ethical Hacking Internship Labs offers hands-on tra
 
   **Topics Covered**
 
-| Lab Number   | Activity Name                                                                                                | Status                                                                           |
+| Lab Number   | Description Name                                                                                                | Status                                                                           |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Lab 1  | [Investigate Kali Linux](INT_301_Week_1/lab1.md)                                       |Mandatory                                                                                         |
 | Lab 2  | [Installing Packages and Applications](INT_301_Week_1/lab2.md)                                                |Mandatory                                                                                           |
@@ -23,13 +23,13 @@ Phase 1 of the Cybersecurity Ethical Hacking Internship Labs offers hands-on tra
 
   **Topics Covered**
 
-| Lab Number   | Activity Name                                                                                                | Status                                                                           |
+| Lab Number   | Description Name                                                                                                | Status                                                                           |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| Lab 1.1.3  | [Lab - Researching PenTesting Careers](INT_301_Week_1/lab1.md)                                       |Mandatory                                                                                         |
-| Lab 1.2.4  | [Practice - Types of Penetration Tests](INT_301_Week_1/lab2.md)                                                | Mandatory                                                                                           |
-| Lab 1.2.6  | [Lab - Compare Pentesting Methodologies](INT_301_Week_1/lab3.md)                                        | Mandatory    |
-| Lab 1.3.4 | [Practice - Requirements and Guidelines for Penetration Testing Labs](INT_301_Week_1/lab4.md)                                       | Mandatory  |
-| Lab 1.3.6  | [Lab - Deploy a Pre-Built Kali Linux Virtual Machine (VM)](INT_301_Week_1/lab5.md)                                            | Mandatory       |
+| Lab 6  | [Introduction to Bash Scripting](INT_301_Week_2/lab.md)                                       |Mandatory                                                                                         |
+| Lab 7  | [Automating Linux Command Shell Navigation](INT_301_Week_2/lab2.md)                                                | Mandatory                                                                                           |
+| Lab 8  | [Automating Advanced File Management and Permissions in Linux](INT_301_Week_2/lab3.md)                                        | Mandatory    |
+| CTF | [Linux Capture The Flag (CTF) Challenge](INT_301_Week_2/final_int301-ctf.md)                                       | Mandatory  |
+
                                                                                             
 
 ---
