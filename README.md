@@ -57,8 +57,5 @@ Phase 1 of the **Cybersecurity Ethical Hacking Internship Labs** is designed to 
 
 ---
 
-### **Conclusion**
-
-Phase 1 of the Cybersecurity Ethical Hacking Internship is an immersive experience, designed to give you both foundational and advanced skills in operating systems and cybersecurity. Each lab has been curated to simulate real-world tasks, ensuring that by the end of the program, you are not only confident in your abilities but ready to face the challenges of a professional cybersecurity career.
 
 ---
