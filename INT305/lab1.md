@@ -1,74 +1,98 @@
+Here's the enhanced **Lab 1: User Management** with the **Exercise** section added:
 
-### **Lab 1: User Management**
+---
 
-#### **Objective:**
-To learn how to create, modify, and manage user accounts securely in a Linux environment, understanding best practices for user account management.
+## **INT304: Network Security and Protocols – Lab 1: User Management**
 
-#### **Materials Required:**
-- Linux operating system (Ubuntu, Kali Linux, or similar)
-- Terminal access with sudo privileges
+### **Objectives**
+- Learn how to create, modify, and manage user accounts securely in Linux.
+- Understand the importance of user account management for maintaining system security.
+- Practice best practices in user administration, including user creation, modification, and deletion.
 
-#### **Tasks:**
+### **Lab Activities**
 
-1. **Creating User Accounts:**
-   - Create a new user account named `student1` using the `adduser` command. This command sets up the user with a home directory and prompts for additional information.
-     ```bash
-     sudo adduser student1
-     ```
-   - Verify the user creation by checking the user ID and group information:
-     ```bash
-     id student1
-     ```
+#### **Overview of User Management**
+- Begin by reviewing the materials on user management in Linux. Focus on understanding the significance of secure user account management in preventing unauthorized access to systems.
 
-2. **Modifying User Accounts:**
-   - Change the password for `student1` to ensure security. Follow the prompts to enter and confirm the new password:
-     ```bash
-     sudo passwd student1
-     ```
-   - Create a new group called `students` (if it does not already exist) and add `student1` to this group to manage permissions effectively:
-     ```bash
-     sudo groupadd students  # Only if the group doesn't exist
-     sudo usermod -aG students student1
-     ```
+#### **Creating User Accounts**
+- Create a new user named `student1` using the following command:
+  ```bash
+  sudo adduser student1
+  ```
+- Verify that the user account has been created successfully:
+  ```bash
+  id student1
+  ```
 
-3. **Locking and Unlocking User Accounts:**
-   - Check if `student1` is currently active by listing any processes associated with the user:
-     ```bash
-     ps -u student1
-     ```
-   - If there are any active processes, terminate them to ensure the user can be locked:
-     ```bash
-     sudo pkill -u student1
-     ```
-   - Lock the user account to prevent `student1` from logging in. This is useful for temporary suspensions:
-     ```bash
-     sudo usermod -L student1
-     ```
-   - To unlock the user account, allowing access again:
-     ```bash
-     sudo usermod -U student1
-     ```
+#### **Modifying User Accounts**
+- Change the password for `student1` to ensure secure access:
+  ```bash
+  sudo passwd student1
+  ```
+- Create a group named `students` and add `student1` to this group to manage permissions effectively:
+  ```bash
+  sudo groupadd students  # Only if the group doesn't exist
+  sudo usermod -aG students student1
+  ```
 
-4. **Deleting User Accounts:**
-   - To delete `student1` while keeping their home directory and files, use:
-     ```bash
-     sudo deluser student1
-     ```
-   - To completely remove the user and their home directory, use the following command:
-     ```bash
-     sudo deluser --remove-home student1
-     ```
+#### **Locking and Unlocking User Accounts**
+- Check for any active processes associated with `student1`:
+  ```bash
+  ps -u student1
+  ```
+- Terminate any processes if necessary:
+  ```bash
+  sudo pkill -u student1
+  ```
+- Lock the user account:
+  ```bash
+  sudo usermod -L student1
+  ```
+- Unlock the user account when needed:
+  ```bash
+  sudo usermod -U student1
+  ```
 
-#### **Exercise:**
-1. Create a user named `student1` following the steps outlined above.
-2. Add `student1` to the `students` group.
-3. Lock the account to prevent access.
-4. Delete the user, first keeping their home directory, and then completely removing the user and their files.
+#### **Deleting User Accounts**
+- Delete `student1` while keeping their home directory:
+  ```bash
+  sudo deluser student1
+  ```
+- Completely remove the user and their home directory:
+  ```bash
+  sudo deluser --remove-home student1
+  ```
 
-#### **Submission Requirements:**
-- Document each step you performed in the exercise, including any outputs received from the terminal.
-- Submit your report as a PDF, including any challenges faced and how you overcame them.
+### **Exercise**
+1. **User Account Creation and Modification:**
+   - Create a user named `student1`.
+   - Add `student1` to the group `students`.
+   - Change the password for `student1` to a secure value.
 
-### **Conclusion:**
-This lab provides foundational knowledge and practical experience in user management within Linux, crucial for maintaining secure systems and ensuring appropriate access control for users.
+2. **Account Locking and Unlocking:**
+   - Check for any active processes under `student1` and terminate them if necessary.
+   - Lock the `student1` account and verify that the account is locked.
+   - Unlock the account and confirm it is accessible again.
+
+3. **User Account Deletion:**
+   - Delete the `student1` user account while keeping the home directory.
+   - Finally, remove `student1` completely, including their home directory.
+
+### **Hands-On Activity**
+- Perform the tasks outlined above in a Linux environment.
+- Document each command executed and any outputs received.
+- Reflect on the implications of user management practices in maintaining system security.
+
+### **Group Discussion**
+- Discuss the importance of secure user account management in operating systems.
+- Encourage participants to share their experiences and challenges faced during the hands-on activities.
+
+### **Deliverables**
+- Compile a report summarizing your findings from the lab activities, including:
+  - Steps taken to create, modify, lock, unlock, and delete user accounts.
+  - Challenges encountered and how they were addressed.
+  - Insights gained regarding user management practices.
+
+### **Deadline**
+The report should be submitted by the specified due date, which will be communicated in class.
 
