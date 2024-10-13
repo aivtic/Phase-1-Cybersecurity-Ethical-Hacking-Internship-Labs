@@ -1,3 +1,6 @@
+Here's an updated version of your **Lab 3: Command Injection in DVWA** with an added **Lab Report** section for students to complete after each exercise. This will help them document their findings and reflections systematically.
+
+---
 
 # INT307 Web Application Security  Lab 3: Command Injection in DVWA
 
@@ -11,6 +14,8 @@ You will test various payloads against different levels of command injection vul
 
 - Ensure you have DVWA installed and running.
 - Familiarize yourself with BurpSuite and the FoxyProxy extension for effective testing.
+
+---
 
 ## Exercise Instructions
 
@@ -102,7 +107,56 @@ You will test various payloads against different levels of command injection vul
 
 ---
 
+## Lab Report
+
+### **Student Information**
+
+- **Name:** [Your Name]  
+- **Student ID:** [Your ID]  
+- **Date:** [Date of Lab]  
+
+### **Exercise Summaries**
+
+For each exercise, please summarize your findings below.
+
+#### **Exercise 1 Summary**
+- **Output Observed:**
+  - [Document the output received]
+- **Implications:**
+  - [Discuss the implications of the vulnerability]
+
+---
+
+#### **Exercise 2 Summary**
+- **Output Observed:**
+  - [Document the output received]
+- **Implications:**
+  - [Discuss the implications of the vulnerability]
+
+---
+
+#### **Exercise 3 Summary**
+- **Output Observed:**
+  - [Document the output received]
+- **Implications:**
+  - [Discuss the implications of the vulnerability]
+
+---
+
+#### **Exercise 4 Summary**
+- **Output Observed:**
+  - [Document the output received]
+- **Implications:**
+  - [Discuss the effectiveness of the application’s input sanitization]
+
+---
+
 ## Conclusion
 
 In this lab, you have learned about Command Injection vulnerabilities and how they can be exploited at different levels. Take note of the importance of input validation and sanitization to secure applications against such attacks.
+
+### **Submission Instructions**
+- Complete your lab report and submit .
+
+---
 
