@@ -1,3 +1,4 @@
+Here’s an updated version of your lab instructions with the report submission section added:
 
 ## **INT308: Session Management and Web Security – Lab 1: Session Management Vulnerabilities**
 
@@ -62,10 +63,21 @@ In this lab, you will explore session management vulnerabilities, focusing on ho
 
 ---
 
+### **Report Submission**
+At the end of this lab, you are required to submit a report summarizing your findings and reflections from each exercise. Your report should include:
+
+- An overview of the session management vulnerabilities explored.
+- Detailed reflections from each exercise, including any vulnerabilities identified and potential mitigation strategies.
+- Screenshots or code snippets where applicable to support your observations.
+- Any additional insights or recommendations for improving session management practices.
+
+**Submission Format**: Submit your report as a PDF file. Ensure that it is well-organized and clearly addresses each part of the lab.
+
+---
+
 ### **Conclusion**
 In this lab, you explored various session management vulnerabilities, including insecure session handling practices, session fixation, and session hijacking. Understanding these concepts is crucial for implementing secure session management in web applications.
 
 ### **Next Steps**
 - Review the OWASP guidelines on secure session management practices.
 - Prepare for the next lab, which will focus on mitigating these vulnerabilities and implementing secure session management strategies.
-

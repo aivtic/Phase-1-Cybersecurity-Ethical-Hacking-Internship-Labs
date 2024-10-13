@@ -295,3 +295,41 @@ This is just an introduction to web application security vulnerabilities. More i
 
 These labs will equip students with essential skills to understand and secure web applications against common vulnerabilities, building on the foundational knowledge of security concepts you've established in earlier courses.
 
+---
+
+## **INT308: Session Management and Web Security – Labs**
+
+### **Topics Covered**
+This course covers the critical aspects of session management and web security vulnerabilities, focusing on session hijacking techniques and mitigation strategies. The labs emphasize hands-on experience in identifying, exploiting, and securing session-related vulnerabilities.
+
+---
+
+### **Week 1: Understanding Session Management and Vulnerability Assessment**
+
+| **Lab Number** | **Description Name**                                                                  | **Status**         |
+| -------------- | -------------------------------------------------------------------------------------- | ------------------ |
+| Lab 1          | [Understanding Session Cookies](INT308/lab1.md)                                      | Mandatory          |
+| Lab 2          | [Session Hijacking Simulation](INT308/lab2.md)                                       | Mandatory          |
+
+---
+
+### **Week 2: Session Management Testing and CTF Challenge**
+
+| **Lab Number** | **Description Name**                                                                  | **Status**         |
+| -------------- | -------------------------------------------------------------------------------------- | ------------------ |
+| Lab 3          | [Testing for Session Fixation](INT308/lab3.md)                                       | Mandatory          |
+| Lab 4          | [Capture The Flag Challenge: Session Hijacking](INT308/lab4.md)                      | Mandatory          |
+
+---
+
+### **Course Highlights:**
+This lab series will provide participants with:
+- Practical experience in understanding and analyzing session management mechanisms.
+- Hands-on practice in simulating session hijacking attacks and recognizing vulnerabilities.
+- Insights into common session management flaws, such as session fixation and ID predictability.
+- An engaging Capture The Flag (CTF) challenge that reinforces learning through real-world scenarios.
+
+### **Note:**
+These labs aim to equip students with essential skills to identify and secure web applications against session hijacking vulnerabilities. Building on the foundational knowledge of web security concepts established in earlier courses, students will develop a deeper understanding of securing web sessions and the importance of robust session management practices. 
+
+
