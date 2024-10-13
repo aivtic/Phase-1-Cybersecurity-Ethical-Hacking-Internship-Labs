@@ -252,9 +252,7 @@ Here's the revised course table for **INT307: Web Application Security**, includ
 
 ---
 
-Here's the revised course table for **INT307: Web Application Security** with the labs reordered as per your request:
 
----
 
 ## **INT307: Web Application Security – Labs**
 
