@@ -212,9 +212,7 @@ This lab series will equip participants with practical skills in:
 
 Each lab provides hands-on exercises to prepare participants for real-world challenges in secure user access management.
 
---- 
 
-Here’s the lab structure focused on just the two labs you’ve created for **INT306**. This simplified format highlights both the Caesar Cipher and Hash Function exercises.
 
 ---
 
@@ -250,4 +248,50 @@ This lab series will provide participants with:
 These labs will help students gain essential skills to understand cryptography's role in cybersecurity, much like the deeper explorations you've led in forensics and secure access control in Linux systems.
 
 ---
+Here's the revised course table for **INT307: Web Application Security**, including a note to inform students that this is just an introduction, with more advanced topics covered in Phase 2 under the OWASP Top 10 vulnerabilities course.
+
+---
+
+Here's the revised course table for **INT307: Web Application Security** with the labs reordered as per your request:
+
+---
+
+## **INT307: Web Application Security – Labs**
+
+### **Topics Covered**
+This course covers essential web application security vulnerabilities, focusing on exploitation techniques and mitigation strategies. The labs emphasize hands-on experience in identifying, exploiting, and securing common web application vulnerabilities.
+
+---
+
+### **Week 1: SQL Injection, Cross-Site Scripting, and Command Injection Vulnerabilities**
+
+| **Lab Number** | **Description Name**                                                                  | **Status**         |
+| -------------- | -------------------------------------------------------------------------------------- | ------------------ |
+| Lab 1          | [SQL Injection in DVWA](INT307/lab1.md)                               | Mandatory          |
+| Lab 2          | [Cross-Site Scripting (XSS) in DVWA](INT307/lab2.md)                           | Mandatory          |
+| Lab 3          | [Command Injection in DVWA](INT307/lab3.md)                       | Mandatory          |
+
+---
+
+### **Week 2: File Upload, Security Misconfiguration, and IDOR Vulnerabilities**
+
+| **Lab Number** | **Description Name**                                                                  | **Status**         |
+| -------------- | -------------------------------------------------------------------------------------- | ------------------ |
+| Lab 4          | [File Upload Vulnerabilities in DVWA](INT307/lab4.md)                   | Mandatory          |
+| Lab 5          | [Security Misconfiguration in DVWA](INT307/lab5.md)       | Mandatory          |
+| Lab 6          | [Insecure Direct Object References (IDOR) in DVWA](INT307/lab6.md)             | Mandatory          |
+
+---
+
+### **Course Highlights:**
+This lab series will provide participants with:
+- Practical experience in identifying and exploiting SQL injection, XSS, and command injection vulnerabilities.
+- Hands-on practice in recognizing file upload flaws and understanding their implications.
+- Insights into common security misconfigurations and how they can lead to vulnerabilities.
+- A deeper understanding of Insecure Direct Object References (IDOR) and how to mitigate such risks.
+
+### **Note:**
+This is just an introduction to web application security vulnerabilities. More in-depth topics will be covered in Phase 2, focusing on the OWASP Top 10 vulnerabilities, where students will gain advanced knowledge and skills to further secure applications.
+
+These labs will equip students with essential skills to understand and secure web applications against common vulnerabilities, building on the foundational knowledge of security concepts you've established in earlier courses.
 

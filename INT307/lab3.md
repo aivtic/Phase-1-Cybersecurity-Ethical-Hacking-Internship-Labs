@@ -1,6 +1,4 @@
-Here's an updated version of your **Lab 3: Command Injection in DVWA** with an added **Lab Report** section for students to complete after each exercise. This will help them document their findings and reflections systematically.
 
----
 
 # INT307 Web Application Security  Lab 3: Command Injection in DVWA
 
