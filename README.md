@@ -138,3 +138,42 @@ This lab series will equip participants with practical skills in:
 - IP address analysis and reporting
 
 Each lab provides hands-on exercises to prepare participants for real-world networking challenges.
+
+
+---
+
+## **INT304: Network Security and Protocols – Labs**
+
+### **Topics Covered**
+This course focuses on the principles and practices of network security, including various protocols and their applications in securing network communications. The labs provide practical experience in implementing and analyzing network security protocols.
+
+---
+
+### **Week 1: Introduction to Network Security Protocols**
+
+| **Lab Number** | **Description Name**                                                                          | **Status**         |
+| -------------- | --------------------------------------------------------------------------------------------- | ------------------ |
+| Lab 1          | [Introduction to Network Security and Protocols](INT304/lab1.md)              | Mandatory          |
+| Lab 2          | [Hands-On with Firewall Configurations and Access Control Lists](INT304/lab2.md) | Mandatory          |
+
+---
+
+### **Week 2: Advanced Protocol Configurations and Analysis**
+
+| **Lab Number** | **Description Name**                                                                          | **Status**         |
+| -------------- | --------------------------------------------------------------------------------------------- | ------------------ |
+| Lab 3          | [Network Security Protocols and Configuration](INT304/lab3.md)                | Mandatory          |
+| Lab 4          | [Intrusion Detection Systems (IDS) and Traffic Analysis](INT304/lab4.md)      | Mandatory          |
+
+---
+
+### **Course Highlights:**
+This lab series will equip participants with practical skills in:
+- Understanding and implementing various network security protocols
+- Configuring firewalls and access control lists
+- Analyzing traffic and detecting intrusions in a network
+- Securing communications using industry-standard protocols
+
+Each lab provides hands-on exercises to prepare participants for real-world network security challenges.
+
+--- 
