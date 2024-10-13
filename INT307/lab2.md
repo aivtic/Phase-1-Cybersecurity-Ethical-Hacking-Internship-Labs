@@ -4,7 +4,10 @@
 
 ### Introduction
 
-Welcome to the DVWA XSS Solutions repository! This repository contains comprehensive solutions for Cross-Site Scripting (XSS) vulnerabilities in the Damn Vulnerable Web Application (DVWA). These solutions are meticulously provided by Nihar Rathod, also known as BugBot19.
+This lab repository contains comprehensive exercises and solutions for addressing Cross-Site Scripting (XSS) vulnerabilities in the Damn Vulnerable Web Application (DVWA). Designed for security professionals and enthusiasts, this lab offers hands-on experience in identifying and mitigating XSS vulnerabilities.
+
+
+Through various exercises, participants will engage with different XSS attack vectors, allowing them to strengthen their web security skills in a controlled and legal environment.
 
 ### Overview
 
