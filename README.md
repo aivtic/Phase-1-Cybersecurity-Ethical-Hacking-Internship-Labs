@@ -177,3 +177,41 @@ This lab series will equip participants with practical skills in:
 Each lab provides hands-on exercises to prepare participants for real-world network security challenges.
 
 --- 
+
+## **INT305: Secure User Access Management in Linux – Labs**
+
+### **Topics Covered**
+This course focuses on the principles and practices of secure user access management in Linux environments, emphasizing user account management, file permissions, and security best practices. The labs provide practical experience in implementing and analyzing user access controls.
+
+---
+
+### **Week 1: Introduction to User Management in Linux**
+
+| **Lab Number** | **Description Name**                                                                          | **Status**         |
+| -------------- | --------------------------------------------------------------------------------------------- | ------------------ |
+| Lab 1          | [User Management Fundamentals](INT305/lab1.md)                                             | Mandatory          |
+| Lab 2          | [File and Directory Permissions](INT305/lab2.md)                                            | Mandatory          |
+
+---
+
+### **Week 2: Advanced User Management Techniques**
+
+| **Lab Number** | **Description Name**                                                                          | **Status**         |
+| -------------- | --------------------------------------------------------------------------------------------- | ------------------ |
+| Lab 3          | [Access Control Lists (ACLs)](INT305/lab3.md)                                              | Mandatory          |
+| Lab 4          | [Sudo and Privilege Management](INT305/lab4.md)                                            | Mandatory          |
+
+---
+
+### **Course Highlights:**
+This lab series will equip participants with practical skills in:
+- Managing user accounts and groups in Linux
+- Configuring and analyzing file and directory permissions
+- Implementing Access Control Lists (ACLs) for fine-grained access control
+- Managing sudo privileges for enhanced security
+
+Each lab provides hands-on exercises to prepare participants for real-world challenges in secure user access management.
+
+--- 
+
+Feel free to modify any sections as needed!

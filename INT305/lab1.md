@@ -1,8 +1,6 @@
-Here's the enhanced **Lab 1: User Management** with the **Exercise** section added:
 
----
 
-## **INT304: Network Security and Protocols – Lab 1: User Management**
+## **INT305: Network Security and Protocols – Lab 1: User Management**
 
 ### **Objectives**
 - Learn how to create, modify, and manage user accounts securely in Linux.
