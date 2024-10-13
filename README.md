@@ -332,4 +332,52 @@ This lab series will provide participants with:
 ### **Note:**
 These labs aim to equip students with essential skills to identify and secure web applications against session hijacking vulnerabilities. Building on the foundational knowledge of web security concepts established in earlier courses, students will develop a deeper understanding of securing web sessions and the importance of robust session management practices. 
 
+Here’s how the course table for **INT309: Web Technologies and Database Security – Labs** can be structured based on the model you’ve provided:
+
+---
+
+## **INT309: Web Technologies and Database Security – Labs**
+
+### **Topics Covered**
+This course focuses on foundational web technologies, database management, and securing database access. Students will explore various components of web development, understanding security threats, and gaining hands-on experience in creating, securing, and managing databases.
+
+---
+
+### **Week 1: Introduction to Web Technologies and Database Fundamentals**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 1          | [Introduction to Web Technologies and Understanding HTTP/HTTPS](INT309/lab1.md)              | Mandatory    |
+| Lab 2          | [Web Development Components and Security Threats](INT309/lab2.md)                            | Mandatory    |
+| Lab 3          | [Introduction to Databases and SQL (Building MySQL Database)](INT309/lab3.md)                | Mandatory    |
+
+---
+
+### **Week 2: Advanced Database Management and Security**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 4          | [Database Backup and Restoration, and Securing Database Access](INT309/lab4.md)              | Mandatory    |
+| Lab 5          | [Final CTF Challenge: Securing Web Applications with Databases](INT309/lab5.md)              | Mandatory    |
+
+---
+
+### **Course Highlights:**
+This lab series offers students:
+- Practical understanding of web technologies and HTTP/HTTPS protocols.
+- Knowledge of security threats associated with web development components.
+- Hands-on experience in creating and managing MySQL databases, including writing SQL queries.
+- Insights into securing database access in web applications, with a focus on preventing attacks such as SQL injection.
+- Real-world database management tasks, such as performing backups, restorations, and automating the process.
+- An engaging Capture The Flag (CTF) challenge to apply the skills learned in a security-focused scenario.
+
+---
+
+### **Note:**
+The labs in this course are designed to help students gain practical experience in working with web technologies, securing databases, and understanding the integral role that security plays in web development. By the end of this course, students will have a strong foundation in both web technologies and database management, as well as the skills necessary to protect and maintain database systems in a real-world environment.
+
+---
+
+
+
 

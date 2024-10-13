@@ -1,6 +1,6 @@
 
 
-# **INT309: Web Technologies and Database Security – Lab 1: Introduction to Web Technologies and Understanding HTTP and HTTPS**
+## **INT309: Web Technologies and Database Security – Lab 1: Introduction to Web Technologies and Understanding HTTP and HTTPS**
 
 ### **Overview**
 In this lab, you will delve into the foundational concepts of web technologies, specifically focusing on the HTTP and HTTPS protocols that enable seamless communication between clients (browsers) and servers. You will learn about the structure of web requests and responses, the significance of various HTTP methods, and the critical importance of securing web traffic through HTTPS. This knowledge will lay the groundwork for understanding more complex topics in web and database security.
