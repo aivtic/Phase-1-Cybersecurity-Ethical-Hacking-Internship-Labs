@@ -1,6 +1,6 @@
 
 
-### INT307 Web Application Security Lab 2: XSS Vulnerabilities in DVWA
+# INT307 Web Application Security Lab 2: XSS Vulnerabilities in DVWA
 
 ### Introduction
 

@@ -1,5 +1,5 @@
 
-### INT307 Web Application Security Lab 1: Manual and Automated SQL Injection Testing
+# INT307 Web Application Security Lab 1: Manual and Automated SQL Injection Testing
 
 
 
