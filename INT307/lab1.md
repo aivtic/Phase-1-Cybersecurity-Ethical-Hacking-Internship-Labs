@@ -191,8 +191,6 @@ In some situations, an attacker can escalate an SQL injection attack to compromi
 
 - **Testing Without a Password**: Explore methods to log in without knowing the password by manipulating the SQL query.
 
----
-Certainly! Here’s a table you can add to the lab document that summarizes key SQL injection techniques, their objectives, and example payloads. This will help students quickly reference the information during their lab exercises.
 
 ---
 
@@ -216,10 +214,6 @@ Certainly! Here’s a table you can add to the lab document that summarizes key 
   - During lab exercises, refer to the appropriate technique based on the task at hand.
   - Utilize the example payloads to test for SQL injection vulnerabilities.
   - Keep in mind the objectives of each technique to guide your exploration and documentation.
-
----
-
-Sure! Here's the additional section with the commands for **sqlmap** you requested, formatted for inclusion in the lab document. This section provides a concise overview of various **sqlmap** command-line options, their purposes, and descriptions.
 
 ---
 
