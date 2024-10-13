@@ -499,4 +499,66 @@ These labs are structured to equip students with both theoretical knowledge and 
 
 
 
+## **INT313: Computer and Digital Forensics – Labs**
+
+### **Topics Covered**
+This course focuses on the essential skills and techniques necessary for conducting digital forensic investigations. Students will gain hands-on experience with various forensic tools and methodologies, enabling them to effectively analyze digital evidence.
+
+---
+
+### **Week 1: Introduction to Digital Forensics Techniques**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 1          | [Digital Forensics Fundamentals: Understanding Disk Images](INT313/lab1.md)                | Mandatory    |
+| Lab 2          | [Using Autopsy and The Sleuth Kit for USB Drive Analysis](INT313/lab2.md)                  | Mandatory    |
+
+---
+
+### **Week 2: Practical Applications in Forensic Investigations**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 3          | [Disk Imaging Techniques: Acquisition Methods for USB Drives](INT313/lab3.md)              | Mandatory    |
+
+---
+
+### **Course Highlights:**
+This lab series offers students:
+- A solid foundation in digital forensic methodologies and tools.
+- Practical experience in analyzing disk images and recovering deleted files.
+- Hands-on skills in acquiring disk images using various techniques in Windows and Linux environments.
+- Insight into the ethical considerations involved in digital forensic investigations.
+
+---
+
+### **Note:**
+These labs are designed to provide students with both theoretical knowledge and practical skills essential for conducting effective digital forensic investigations. By the end of the course, students will be well-equipped to analyze digital evidence using industry-standard tools and techniques.
+
+---
+
+## **Conclusion of Phase 1: Internship Training**
+
+### **Congratulations on Completing Phase 1 of Your Internship Training!**
+
+As you conclude the first six months of your internship training in **Cybersecurity and Ethical Hacking Internship Training**, take a moment to reflect on the extensive knowledge and practical skills you have developed. This phase has been instrumental in laying a solid foundation for your future endeavors in the field of cybersecurity.
+
+### **Key Highlights of Phase 1:**
+- **Comprehensive Learning:** Over the past six months, you have engaged in various courses and labs that covered essential concepts in Cybersecurity, Ethical Hacking, digital forensics, networking, and evidence analysis.
+- **Hands-On Experience:** The practical labs provided you with real-world scenarios and experience using industry-standard tools and methodologies, enhancing your analytical skills and technical proficiency.
+- **Collaboration and Teamwork:** You have worked alongside peers and instructors, fostering teamwork and communication skills essential for success in professional environments.
+
+### **Looking Ahead:**
+Phase 1 is just the beginning of your journey. As you advance to the next phases, you will delve deeper into specialized topics and advanced techniques that will prepare you for the challenges of the cybersecurity landscape. Your dedication to continuous learning and improvement will be crucial as you progress in your career.
+
+### **A Few Words of Encouragement:**
+- **Embrace Growth:** The cybersecurity field is dynamic and continuously evolving. Embrace every opportunity to learn and adapt to new technologies and trends.
+- **Network Effectively:** Build connections with your peers and industry professionals. Networking can provide valuable insights and open doors to future career opportunities.
+- **Uphold Ethical Standards:** Always adhere to ethical guidelines in your work. Integrity and professionalism are paramount in the field of digital forensics.
+
+### **Thank You!**
+We appreciate your commitment, hard work, and enthusiasm throughout these six months. We look forward to seeing how you will apply your skills and knowledge in the next phase of your training and in your future career. Continue to strive for excellence as you navigate the exciting world of digital forensics!
+
+---
+
 
