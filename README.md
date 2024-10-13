@@ -459,7 +459,7 @@ These labs are designed to provide students with both theoretical knowledge and 
 ---
 
 
-## **INT312: Advanced Computer Skills for Digital Forensics – Labs**
+## **INT312:  Basic Networking Skills for Digital Forensics – Labs**
 
 ### **Topics Covered**
 This course delves deeper into advanced computer skills and techniques used in digital forensics. Students will build on foundational knowledge to explore more complex forensic analysis and evidence handling.
