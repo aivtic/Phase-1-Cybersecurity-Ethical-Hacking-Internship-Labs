@@ -459,6 +459,44 @@ These labs are designed to provide students with both theoretical knowledge and 
 ---
 
 
+## **INT312: Advanced Computer Skills for Digital Forensics – Labs**
+
+### **Topics Covered**
+This course delves deeper into advanced computer skills and techniques used in digital forensics. Students will build on foundational knowledge to explore more complex forensic analysis and evidence handling.
+
+---
+
+### **Week 1: Advanced Concepts in Digital Forensics**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 1          | [Packet Sniffing and Interception Techniques](INT312/lab1.md)                              | Mandatory    |
+| Lab 2          | [Capturing and Analyzing HTTP Traffic with Embedded Images](INT312/lab2.md)                                   | Mandatory    |
+
+---
+
+### **Week 2: Practical Application of Forensic Techniques**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 3          | [DNS Spoofing and ARP Poisoning Attacks](INT312/lab3.md)                      | Mandatory    |
+
+---
+
+### **Course Highlights:**
+This lab series offers students:
+- In-depth understanding of network security vulnerabilities and attack vectors.
+- Practical skills in capturing and analyzing network traffic using tools like Wireshark and tcpdump.
+- Hands-on experience with executing and mitigating DNS spoofing and ARP poisoning attacks.
+- Exposure to ethical considerations and best practices in digital forensic investigations.
+
+---
+
+### **Note:**
+These labs are structured to equip students with both theoretical knowledge and practical expertise in advanced digital forensics. By the end of the course, students will have a comprehensive understanding of complex forensic analysis techniques and their implications for security.
+
+---
+
 
 
 
