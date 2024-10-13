@@ -104,3 +104,41 @@ This lab series will equip participants with practical skills in:
 - Anonymity, proxy usage, and password cracking techniques
 
 Each lab provides real-world exercises to prepare participants for hands-on cybersecurity challenges.
+
+---
+
+## **INT303: Networking Fundamentals – Labs**
+
+### **Topics Covered**
+This course provides a foundational understanding of networking concepts, including IP addressing, subnetting, routing, and network troubleshooting using Linux-based tools. The labs are designed to offer practical experience in network configuration and analysis.
+
+---
+
+### **Week 1: Network Configuration and IP Addressing**
+
+| **Lab Number** | **Description Name**                                                                                                       | **Status**         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Lab 1          | [Basic Network Configuration: Setting Up and Troubleshooting](INT303/lab1.md)                                          | Mandatory          |
+| Lab 2          | [Understanding IP Addressing: IPv4 and IPv6 Classification and Subnetting](INT303/lab2.md)                         | Mandatory          |
+| Lab 3          | [Packet Analysis with Wireshark: Capture, Filter, and Analyze Network Traffic](INT303/lab3.md)                     | Mandatory          |
+
+---
+
+### **Week 2: Advanced Networking Concepts and Analysis**
+
+| **Lab Number** | **Description Name**                                                                                                       | **Status**         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Lab 4          | [Simulated Router Configuration and Network Routing](INT303/lab4.md)                                              | Mandatory          |
+| Lab 5          | [Networking Assignment: IP Address Analysis and Reporting](INT303/lab5.md)                                          | Mandatory          |
+
+---
+
+### **Course Highlights:**
+This lab series will equip participants with practical skills in:
+- Network interface configuration and troubleshooting
+- Understanding and applying IP addressing concepts
+- Packet capturing and analysis techniques using Wireshark
+- Simulated router configurations and understanding routing protocols
+- IP address analysis and reporting
+
+Each lab provides hands-on exercises to prepare participants for real-world networking challenges.
