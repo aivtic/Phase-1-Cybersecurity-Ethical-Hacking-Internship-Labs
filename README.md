@@ -214,4 +214,40 @@ Each lab provides hands-on exercises to prepare participants for real-world chal
 
 --- 
 
-Feel free to modify any sections as needed!
+Here’s the lab structure focused on just the two labs you’ve created for **INT306**. This simplified format highlights both the Caesar Cipher and Hash Function exercises.
+
+---
+
+## **INT306: Cryptography – Labs**
+
+### **Topics Covered**
+This course covers foundational cryptographic techniques, focusing on substitution ciphers and hash functions. The labs emphasize practical experience in encryption, decryption, and understanding password vulnerabilities through cryptographic methods.
+
+---
+
+### **Week 1: Caesar Cipher Lab**
+
+| **Lab Number** | **Description Name**                                                                | **Status**         |
+| -------------- | ----------------------------------------------------------------------------------- | ------------------ |
+| Lab 1          | [Caesar Cipher Encryption and Decryption](INT306/lab.md)                           | Mandatory          |
+
+---
+
+### **Week 2: Hash Functions and Rainbow Tables**
+
+| **Lab Number** | **Description Name**                                                                | **Status**         |
+| -------------- | ----------------------------------------------------------------------------------- | ------------------ |
+| Lab 2          | [Hash Functions and Creating Rainbow Tables](INT306/lab2.md)                        | Mandatory          |
+
+---
+
+### **Course Highlights:**
+This lab series will provide participants with:
+- Hands-on experience with classic cryptographic techniques like the Caesar Cipher.
+- Practical knowledge of hash functions and how to generate rainbow tables to analyze password vulnerabilities.
+- Insights into how cryptography is used in secure communications and password security.
+
+These labs will help students gain essential skills to understand cryptography's role in cybersecurity, much like the deeper explorations you've led in forensics and secure access control in Linux systems.
+
+---
+
