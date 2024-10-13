@@ -379,5 +379,43 @@ The labs in this course are designed to help students gain practical experience 
 ---
 
 
+## **INT310: Web Application Source Code Vulnerability Analysis – Labs**
+
+### **Topics Covered**
+This course delves into the identification and analysis of vulnerabilities within web application source code. Students will explore key security mechanisms and gain hands-on experience in detecting and fixing vulnerabilities in real-world code.
+
+---
+
+### **Week 1: Security Mechanisms Research and Analysis**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 1          | [Research on Security Mechanisms: Authentication, Authorization, Data Validation, etc.](INT310/lab1.md) | Mandatory    |
+
+---
+
+### **Week 2: Real-World Vulnerability Analysis and Patching**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 2          | [Review and Patch PHP and Python Scripts for Vulnerabilities (CWE Analysis)](INT310/lab2.md) | Mandatory    |
+
+---
+
+### **Course Highlights:**
+This lab series offers students:
+- Research-focused analysis of critical security mechanisms such as authentication, authorization, session management, encryption, and error handling.
+- Hands-on experience reviewing and patching vulnerabilities in PHP and Python scripts, using the CWE (Common Weakness Enumeration) list as a reference.
+- Insights into key vulnerabilities such as SQL injection, cross-site scripting (XSS), missing encryption, and more.
+- Practical application of secure coding practices to mitigate identified vulnerabilities and ensure code integrity.
+- Real-world exposure to the challenges of securing web application source code.
+
+---
+
+### **Note:**
+These labs are designed to equip students with both theoretical and practical skills in web application security. By the end of the course, students will have a strong foundation in source code vulnerability analysis and secure coding practices critical for cybersecurity professionals.
+
+---
+
 
 
