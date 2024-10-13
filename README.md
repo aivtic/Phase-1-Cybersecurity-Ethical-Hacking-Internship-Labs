@@ -58,10 +58,6 @@ Phase 1 of the **Cybersecurity Ethical Hacking Internship Labs** is designed to 
 ---
 
 
-Got it! Here’s the enhanced table with the **12 labs** divided into **two weeks** for **INT302: Kali Linux Tools and System Security**. It provides a clear and structured overview of the labs, ensuring a professional look and a hands-on approach for the participants.
-
----
-
 ## **INT302: Kali Linux Tools and System Security – Labs**
 
 ### **Topics Covered**
