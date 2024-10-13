@@ -417,3 +417,48 @@ These labs are designed to equip students with both theoretical and practical sk
 
 
 
+## **INT311: Basic Computer Skills for Digital Forensics – Labs**
+
+### **Topics Covered**
+This course focuses on foundational computer skills essential for digital forensics. Students will explore various aspects of computer systems, operating systems, and practical skills needed for evidence acquisition and analysis in a forensic context.
+
+---
+
+### **Week 1: Introduction to Digital Forensics and Basic Concepts**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 1          | [Number Systems and Conversion](INT311/lab1.md)                                             | Mandatory    |
+| Lab 2          | [Computer Systems and Forensics Challenges](INT311/lab2.md)                                 | Mandatory    |
+| Lab 3          | [Windows File System Operations](INT311/lab3.md)                                           | Mandatory    |
+
+---
+
+### **Week 2: Advanced Digital Forensics Techniques**
+
+| **Lab Number** | **Description Name**                                                                        | **Status**   |
+| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
+| Lab 4          | [Introduction to Operating Systems and File Systems](INT311/lab4.md)                       | Mandatory    |
+| Lab 5          | [Remote Evidence Acquisition and Digital Forensics Techniques](INT311/lab5.md)              | Mandatory    |
+
+---
+
+### **Course Highlights:**
+This lab series offers students:
+- Practical skills in number systems, data formats, and ASCII code understanding crucial for digital forensics.
+- Insights into the challenges of computer forensics, including hard disk drives and file systems.
+- Hands-on experience with Windows file operations, networking commands, and batch scripting.
+- Exposure to Linux for digital forensics, including file operations, network utilities, and software installation.
+- Techniques for remote evidence acquisition, emphasizing ethical practices and tool usage.
+
+---
+
+### **Note:**
+These labs are designed to provide students with both theoretical knowledge and practical skills in digital forensics. By the end of the course, students will have a strong foundation in computer skills and the techniques necessary for effective forensic analysis.
+
+---
+
+
+
+
+
