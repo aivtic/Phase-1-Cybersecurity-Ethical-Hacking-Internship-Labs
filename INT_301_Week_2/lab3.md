@@ -1,6 +1,6 @@
 
 
-#Lab 3: Automating Advanced File Management and Permissions in Linux
+# Lab 3: Automating Advanced File Management and Permissions in Linux
 
 ## Lab Overview
 In this lab, students will focus on automating file management tasks with bash scripts, including handling file permissions, ownership changes, and access control. This will provide essential skills to automate common file administration tasks while ensuring proper security practices in Linux environments.
