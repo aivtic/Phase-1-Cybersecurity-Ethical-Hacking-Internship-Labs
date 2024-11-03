@@ -33,36 +33,112 @@ In this lab, you will explore the various components involved in web development
      - A form for user input (e.g., contact form).
      - Interactive elements (e.g., a button that changes the text when clicked).
    - **Example Code Snippet**:
-     ```html
-     <!DOCTYPE html>
-     <html lang="en">
-     <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Simple Front-End App</title>
-         <link rel="stylesheet" href="styles.css">
-     </head>
-     <body>
-         <header>
-             <h1>Contact Us</h1>
-             <nav>
-                 <ul>
-                     <li><a href="#home">Home</a></li>
-                     <li><a href="#about">About</a></li>
-                     <li><a href="#contact">Contact</a></li>
-                 </ul>
-             </nav>
-         </header>
-         <main>
-             <form id="contactForm">
-                 <label for="name">Name:</label>
-                 <input type="text" id="name" required>
-                 <button type="submit">Submit</button>
-             </form>
-         </main>
-         <script src="script.js"></script>
-     </body>
-     </html>
+     ```<?php
+// config.php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "test1";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+
+
+// Get form input
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$school = $_POST['school'];
+
+// 1. SQL Injection Vulnerability (Improperly sanitized query)
+$sql = "INSERT INTO users (firstname, lastname, school) VALUES ('$firstname', '$lastname', '$school')";
+$conn->query($sql);
+
+// Retrieve all records to demonstrate XSS vulnerability
+$result = $conn->query("SELECT * FROM users");
+
+
+
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Front-End App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="contactForm" action="" method="POST">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" required>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" required>
+
+            <label for="school">School:</label>
+            <input type="text" name="school" id="school" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+
+
+    <title>Form Submission Result</title>
+</head>
+<body>
+    <h1>Submitted Data</h1>
+    <p>Thank you, <?php echo $firstname; ?>! Here is the data:</p>
+
+    <table border="1">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>School</th>
+        </tr>
+        <?php while ($row = $result->fetch_assoc()): ?>
+        <tr>
+            <!-- 2. XSS Vulnerability: Output is not sanitized -->
+            <td><?php echo $row['firstname']; ?></td>
+            <td><?php echo $row['lastname']; ?></td>
+            <td><?php echo $row['school']; ?></td>
+        </tr>
+        <?php endwhile; ?>
+    </table>
+
+    <!-- Sensitive data exposure: Displaying full database contents without restriction -->
+    <h2>Database Dump:</h2>
+    <?php
+    $dumpResult = $conn->query("SELECT * FROM users");
+    while ($dumpRow = $dumpResult->fetch_assoc()) {
+        echo "User: {$dumpRow['firstname']} {$dumpRow['lastname']}, School: {$dumpRow['school']}<br>";
+    }
+    ?>
+
+    <a href="index.php">Go Back</a>
+</body>
+</html>
+
      ```
 
 3. **Reflection**:
