@@ -33,7 +33,8 @@ In this lab, you will explore the various components involved in web development
      - A form for user input (e.g., contact form).
      - Interactive elements (e.g., a button that changes the text when clicked).
    - **Example Code Snippet**:
-     ```<?php
+     ```html
+     <?php
 // config.php
 $servername = "localhost";
 $username = "root";
@@ -65,18 +66,15 @@ $result = $conn->query("SELECT * FROM users");
 
 
 ?>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Front-End App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Simple Front-End App</title>
+         <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
     <header>
         <h1>Contact Us</h1>
         <nav>
@@ -137,8 +135,7 @@ $result = $conn->query("SELECT * FROM users");
 
     <a href="index.php">Go Back</a>
 </body>
-</html>
-
+     </html>
      ```
 
 3. **Reflection**:
