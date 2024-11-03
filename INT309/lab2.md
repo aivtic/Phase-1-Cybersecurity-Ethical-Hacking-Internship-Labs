@@ -34,38 +34,7 @@ In this lab, you will explore the various components involved in web development
      - Interactive elements (e.g., a button that changes the text when clicked).
    - **Example Code Snippet**:
      ```html
-     <?php
-// config.php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "test1";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-
-
-// Get form input
-$firstname = $_POST['firstname'];
-$lastname = $_POST['lastname'];
-$school = $_POST['school'];
-
-// 1. SQL Injection Vulnerability (Improperly sanitized query)
-$sql = "INSERT INTO users (firstname, lastname, school) VALUES ('$firstname', '$lastname', '$school')";
-$conn->query($sql);
-
-// Retrieve all records to demonstrate XSS vulnerability
-$result = $conn->query("SELECT * FROM users");
-
-
-
-?>
      <!DOCTYPE html>
      <html lang="en">
      <head>
@@ -154,18 +123,35 @@ $result = $conn->query("SELECT * FROM users");
 2. **Create a Simple Back-End Application**:
    - Using a chosen back-end technology, set up a basic server that responds to HTTP requests. For example, using Node.js:
    - **Example Code Snippet**:
-     ```javascript
-     const express = require('express');
-     const app = express();
-     const PORT = 3000;
+     ```
+// config.php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "test1";
 
-     app.get('/', (req, res) => {
-         res.send('Welcome to the Back-End Application!');
-     });
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-     app.listen(PORT, () => {
-         console.log(`Server is running on http://localhost:${PORT}`);
-     });
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+
+
+// Get form input
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$school = $_POST['school'];
+
+// 1. SQL Injection Vulnerability (Improperly sanitized query)
+$sql = "INSERT INTO users (firstname, lastname, school) VALUES ('$firstname', '$lastname', '$school')";
+$conn->query($sql);
+
+// Retrieve all records to demonstrate XSS vulnerability
+$result = $conn->query("SELECT * FROM users");
+
      ```
 
 3. **Reflection**:
