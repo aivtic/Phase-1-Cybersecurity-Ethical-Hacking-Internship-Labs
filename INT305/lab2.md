@@ -1,6 +1,6 @@
 
 
-## **INT305: Cybersecurity Fundamentals – Lab 2: File and Directory Permissions**
+## **INT305: Lab 2: File and Directory Permissions**
 
 ### **Objectives**
 - Understand how to set and manage permissions for files and directories in Linux.
