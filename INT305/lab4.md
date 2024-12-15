@@ -1,6 +1,6 @@
 
 
-## **INT305: Cybersecurity Fundamentals – Lab 4: SSH Configuration and Security Enhancements**
+## **INT305: Lab 4: SSH Configuration and Security Enhancements**
 
 ### **Objectives**
 - Configure secure SSH access for remote systems.

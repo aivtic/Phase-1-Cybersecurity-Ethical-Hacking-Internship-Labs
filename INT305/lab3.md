@@ -1,5 +1,5 @@
 
-## **INT305: Cybersecurity Fundamentals – Lab 3: Access Control Lists (ACLs) and Sudo Privileges**
+## **INT305:Lab 3: Access Control Lists (ACLs) and Sudo Privileges**
 
 ### **Objectives**
 - Configure Access Control Lists (ACLs) for enhanced file and directory permissions.
