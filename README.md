@@ -198,8 +198,8 @@ This course focuses on the principles and practices of secure user access manage
 
 | **Lab Number** | **Description Name**                                                                          | **Status**         |
 | -------------- | --------------------------------------------------------------------------------------------- | ------------------ |
-| Lab 3          | [Access Control Lists (ACLs)](INT305/lab3.md)                                              | Mandatory          |
-| Lab 4          | [Sudo and Privilege Management](INT305/lab4.md)                                            | Mandatory          |
+| Lab 3          | [Strengthening System Security on Linux Servers)](INT305/lab3.md)                                              | Mandatory          |
+
 
 ---
 
