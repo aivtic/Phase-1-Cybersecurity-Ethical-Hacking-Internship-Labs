@@ -356,8 +356,7 @@ This lab series offers students:
 - Knowledge of security threats associated with web development components.
 - Hands-on experience in creating and managing MySQL databases, including writing SQL queries.
 - Insights into securing database access in web applications, with a focus on preventing attacks such as SQL injection.
-- Real-world database management tasks, such as performing backups, restorations, and automating the process.
-- An engaging Capture The Flag (CTF) challenge to apply the skills learned in a security-focused scenario.
+
 
 ---
 
