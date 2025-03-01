@@ -348,16 +348,6 @@ This course focuses on foundational web technologies, database management, and s
 | Lab 1          | [Introduction to Web Technologies and Understanding HTTP/HTTPS](INT309/lab1.md)              | Mandatory    |
 | Lab 2          | [Web Development Components and Security Threats](INT309/lab2.md)                            | Mandatory    |
 | Lab 3          | [Introduction to Databases and SQL (Building MySQL Database)](INT309/lab3.md)                | Mandatory    |
-
----
-
-### **Week 2: Advanced Database Management and Security**
-
-| **Lab Number** | **Description Name**                                                                        | **Status**   |
-| -------------- | -------------------------------------------------------------------------------------------- | ------------ |
-| Lab 4          | [Database Backup and Restoration, and Securing Database Access](INT309/lab4.md)              | Mandatory    |
-| Lab 5          | [Final CTF Challenge: Securing Web Applications with Databases](INT309/lab5.md)              | Mandatory    |
-
 ---
 
 ### **Course Highlights:**
