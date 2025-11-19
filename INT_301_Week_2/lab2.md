@@ -2,6 +2,18 @@
 
 ---
 
+## **Objectives**
+
+By the end of this lab, students will be able to:
+- Develop intelligent navigation systems with logging capabilities
+- Create error-resistant file operation scripts
+- Build interactive menu-driven applications
+- Implement automated backup and monitoring solutions
+- Apply advanced bash scripting techniques for system administration
+- Design robust scripts with proper error handling and validation
+
+---
+
 ## **Lab Introduction**
 
 ### **Purpose of This Lab**

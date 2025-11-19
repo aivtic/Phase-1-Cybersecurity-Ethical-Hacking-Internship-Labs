@@ -1,5 +1,17 @@
 # **Lab 1: Bash Scripting - Complete Beginner to Advanced Guide**
 
+## **Objectives**
+
+By the end of this lab, students will be able to:
+- Understand the fundamentals of bash scripting and shell programming
+- Create, edit, and execute bash scripts effectively
+- Use variables, conditionals, and loops in bash scripts
+- Implement functions for code organization and reusability
+- Develop practical security automation scripts
+- Apply best practices for bash script development
+
+---
+
 ## **Lab Overview**
 This lab will take you from absolute beginner to advanced bash scripting step by step. We'll start with the very basics and gradually build up to creating professional security automation scripts.
 
